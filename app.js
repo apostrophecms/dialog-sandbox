@@ -18,6 +18,7 @@ var apos = require('apostrophe')({
           ]
         }
       ]
-    }
+    },
+    'apostrophe-dialog-box-pages': {}
   }
 });
