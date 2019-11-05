@@ -21,6 +21,7 @@ var apos = require('apostrophe')({
     },
     'apostrophe-dialog-box-pages': {},
     'apostrophe-dialog-box-templates': {},
-    'sandbox': {}
+    'sandbox': {},
+    'tasks': {}
   }
 });

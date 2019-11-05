@@ -14,3 +14,9 @@ In the sandbox directory run
 - `npm link apostrophe-dialog-box`
 
 `npm start` will run the app
+
+## Testing instructions
+To begin testing you need to create a new page and give it the template type `Dialog Index`
+
+### To add sample data for testing
+- `node app.js tasks:addSamples`
