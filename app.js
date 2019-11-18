@@ -1,7 +1,7 @@
 var path = require('path');
 
 var apos = require('apostrophe')({
-  shortName: 'dialogSandbox',
+  shortName: 'dialog-sandbox',
   bundles: [ 'apostrophe-dialog-box' ],
 
   modules: {

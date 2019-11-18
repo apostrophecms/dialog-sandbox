@@ -10,7 +10,9 @@
     <h3>Hello world!
       {{ apos.area(data.page, 'body', { 
         widgets: {
-          'apostrophe-rich-text': {},
+          'apostrophe-rich-text': {
+            toolbar: [ 'Bold', 'Italic', 'Link', 'Dialogbox' ]
+          },
           'apostrophe-video': {}
         }
        }) }}
