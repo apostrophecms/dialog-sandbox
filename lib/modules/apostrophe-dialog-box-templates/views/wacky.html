@@ -1,4 +1,13 @@
-hi wacky
-{{ apos.area(data.piece, 'body', { widgets: {
-  'apostrophe-images': {}
-} }) }}
+{% extends "base.html" %}
+
+{% block main %}
+  <h3>This is the wacky template: {{piece.title}}</h3>
+  {{
+    apos.area(piece, 'body', {
+      widgets: {
+        'apostrophe-images': {},
+        'apostrophe-rich-text': {}
+      }
+    })
+  }}
+{% endblock %}
