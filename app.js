@@ -2,7 +2,7 @@ var path = require('path');
 
 var apos = require('apostrophe')({
   shortName: 'dialog-sandbox',
-  bundles: [ 'apostrophe-dialog-box' ],
+  // bundles: [ 'apostrophe-dialog-box' ],
 
   modules: {
     'apostrophe-templates': { viewsFolderFallback: path.join(__dirname, 'views') },
@@ -19,8 +19,9 @@ var apos = require('apostrophe')({
         }
       ]
     },
+    'apostrophe-dialog-box-modal': {},
+    // optional index page for dialog boxes, useful if dialog styles conflict with apos modal styles
     'apostrophe-dialog-box-pages': {},
-    'apostrophe-dialog-box-templates': {},
     'foos': {},
     'foos-pages': {},
     'sandbox': {},
